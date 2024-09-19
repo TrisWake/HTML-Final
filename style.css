@@ -10,16 +10,22 @@
 }
 
 .column {
-    float: inline-start;
+    float: left;
     width: 50%;
     font-family: serif;
 }
 
 .button {
+    display: flex;
     float: right;
     flex-direction: column;
+    gap: 15px;
+    width: 200px;
+    margin-top: -200px;
+    padding-right: 50px;
+    font-size: 200px;
 }
 
-.right {
-    width: 25%;
+.info {
+    list-style-type: lower-alpha;
 }
