@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    color: blue;
+    background-color: darkgray;
+    margin-top: 50px;
+    border-style: double;
+    border-color: blue;
+}
+
+.column {
+    float: inline-start;
+    width: 50%;
+    font-family: serif;
+}
+
+.button {
+    float: right;
+    flex-direction: column;
+}
+
+.right {
+    width: 25%;
+}
